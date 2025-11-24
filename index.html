@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sky Cafe - Ana Sayfa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Sky Cafe</h1>
+      <nav class="nav">
+        <a href="index.html" class="active">Ana Sayfa</a>
+        <a href="menu.html">Menü</a>
+        <a href="#iletisim">İletişim</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Taze Kahve, Sıcak Ortam</h2>
+          <p>
+            Sky Cafe'de <strong>taze çekilmiş kahve çekirdekleri</strong> ile hazırlanmış
+            içecekler ve <em>rahat bir çalışma ortamı</em> bulabilirsiniz.
+          </p>
+          <p>
+            Arkadaşlarınızla sohbet ederken ya da ders çalışırken size eşlik edecek
+            kahvelerimiz için menümüze göz atabilirsiniz.
+          </p>
+          <a href="menu.html" class="btn">Menüyü Gör</a>
+        </div>
+
+        <div class="hero-image-box">
+          <img src="images/kahve.jpg" alt="Bir fincan kahve" class="hero-image" />
+          <p class="hero-caption">Günün özel kahvesi: Latte &amp; Cheesecake</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HAKKIMIZDA -->
+    <section id="hakkimizda" class="section">
+      <div class="container">
+        <h2>Hakkımızda</h2>
+        <p class="section-text">
+          Sky Cafe, 2023 yılından beri İstanbul'da hizmet veren küçük ve samimi bir kafedir.
+          Amacımız, misafirlerimize sakin bir ortamda kaliteli kahve sunmaktır.
+        </p>
+        <p class="section-text">
+          Öğrenciler, freelancer çalışanlar ve sohbet etmek isteyen herkes için uygun,
+          <strong>wifi</strong> ve <strong>çalışma masaları</strong> bulunan bir alanımız vardır.
+        </p>
+        <hr />
+      </div>
+    </section>
+
+    <!-- NEDEN SKY CAFE -->
+    <section class="section section-light">
+      <div class="container">
+        <h2>Neden Sky Cafe?</h2>
+        <ul class="neden-liste">
+          <li>Taze çekilmiş kahve çekirdekleri</li>
+          <li>Sessiz ve rahat çalışma ortamı</li>
+          <li>Uygun fiyatlı kahve ve tatlı seçenekleri</li>
+        </ul>
+
+        <h3>Kafe kuralları (kısa)</h3>
+        <ol class="kurallar-liste">
+          <li>Masayı terk ederken eşyalarınızı yanınıza alınız.</li>
+          <li>Sessiz çalışma alanlarında yüksek sesle konuşmayınız.</li>
+          <li>Dışarıdan yiyecek ve içecek getirmeyiniz.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ÖNE ÇIKAN ÜRÜNLER -->
+    <section class="section">
+      <div class="container">
+        <h2>Öne Çıkan Lezzetler</h2>
+        <div class="card-grid">
+          <div class="card">
+            <h3>Espresso</h3>
+            <p>Kısa ve yoğun kahve severler için klasik bir tat.</p>
+            <span class="price">55₺</span>
+          </div>
+          <div class="card">
+            <h3>Latte</h3>
+            <p>Sütlü ve yumuşak içimli kahve sevenler için ideal.</p>
+            <span class="price">69₺</span>
+          </div>
+          <div class="card">
+            <h3>Çikolatalı Cheesecake</h3>
+            <p>Yanında kahve ile birlikte en çok tercih edilen tatlı.</p>
+            <span class="price">79₺</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- İLETİŞİM -->
+    <section id="iletisim" class="section section-light">
+      <div class="container contact-layout">
+        <div>
+          <h2>İletişim</h2>
+          <p class="section-text">
+            Rezervasyon ve sorularınız için bizimle iletişime geçebilirsiniz.
+          </p>
+          <p><strong>Adres:</strong> Örnek Mah. Kafe Sok. No: 7, İstanbul</p>
+          <p><strong>Telefon:</strong> 0 (212) 000 00 00</p>
+          <p><strong>Çalışma Saatleri:</strong> Her gün 09:00 - 23:00</p>
+        </div>
+
+        <div>
+          <h3>Bize Yazın</h3>
+          <form class="contact-form" action="#" method="post">
+            <label for="ad">Ad Soyad</label>
+            <input type="text" id="ad" name="ad" placeholder="Adınızı girin" />
+
+            <label for="email">E-posta</label>
+            <input type="email" id="email" name="email" placeholder="ornek@mail.com" />
+
+            <label for="mesaj">Mesajınız</label>
+            <textarea id="mesaj" name="mesaj" rows="4" placeholder="Mesajınızı yazın"></textarea>
+
+            <button type="submit" class="btn">Gönder</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Sky Cafe</p>
+    </div>
+  </footer>
+</body>
+</html>
